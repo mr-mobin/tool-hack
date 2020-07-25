@@ -92,4 +92,7 @@ if x== 16:
 	os.system("cd TheFatRat")
 	os.system("chmod +x setup.sh && ./setup.sh")
 if x== 17:
-        os.system("bash <(curl -s https://raw.githubusercontent.com/gushmazuko/metasploit_in_termux/master/metasploit.sh)")	
+        os.system("pkg install wget")
+        os.system("wget https://raw.githubusercontent.com/gushmazuko/metasploit_in_termux/master/metasploit.sh")
+        os.system("chmod +x metasploit.sh")
+        os.system("./metasploit.sh")
