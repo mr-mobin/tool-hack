@@ -20,6 +20,7 @@ print'13:{hydra}'
 print'14:{insta tool[vIP]}'
 print'15:{ghost}{clinet hack}'
 print'16:{fatrat(root)}'
+print'17:{matasploit}'
 x= input('enter your number:')
 
 if x== 1:
@@ -90,4 +91,5 @@ if x== 16:
 	os.system("git clone https://github.com/Screetsec/TheFatRat.git")
 	os.system("cd TheFatRat")
 	os.system("chmod +x setup.sh && ./setup.sh")
-	
+if x== 17:
+        os.system("bash <(curl -s https://raw.githubusercontent.com/gushmazuko/metasploit_in_termux/master/metasploit.sh)")	
