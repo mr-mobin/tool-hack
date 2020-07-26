@@ -1,9 +1,10 @@
 import os
-print "``coding``"
-print "|by|"
-print "{MOBin.Dan}"
-
-
+print"`````````````"
+print "``coding`````"
+print "|by|        `"
+print "{MOBin.Dan} `"
+print"``````````````"
+print'0:{update}'
 print'1:{fsociety}'
 print'2:{hammer}'
 print'3:{install kali}'
@@ -82,7 +83,7 @@ if x== 14:
 	os.system("cd instagram-tools")
 	os.system("node index.js")
 if x== 15:
-	os.system("https://github.com/entynetproject/ghost")	
+	os.system("git clone https://github.com/entynetproject/ghost")	
 	os.system("cd ghost")
 	os.system("chmod +x install.sh")
 	os.system("./install.sh")
@@ -92,7 +93,14 @@ if x== 16:
 	os.system("cd TheFatRat")
 	os.system("chmod +x setup.sh && ./setup.sh")
 if x== 17:
-        os.system("pkg install wget")
-        os.system("wget https://raw.githubusercontent.com/gushmazuko/metasploit_in_termux/master/metasploit.sh")
-        os.system("chmod +x metasploit.sh")
-        os.system("./metasploit.sh")
+    os.system("pkg install wget")
+    os.system("wget https://raw.githubusercontent.com/gushmazuko/metasploit_in_termux/master/metasploit.sh")
+    os.system("chmod +x metasploit.sh")
+    os.system("./metasploit.sh")
+if  x== 0:
+    os.system("rm -rf tool-hack")
+	os.system("git clone https://github.com/Mobin-Dan/tool-hack.git")
+	os.system("cd tool-hack")
+	os.system("python2 tool.py")
+
+
