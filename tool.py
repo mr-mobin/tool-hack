@@ -98,7 +98,8 @@ if x== 17:
         os.system("chmod +x metasploit.sh")
         os.system("./metasploit.sh")
 if  x== 0:
-        os.system("rm -rf tool-hack")
+        os.system("cd ..")
+	os.system("rm -rf tool-hack")
 	os.system("git clone https://github.com/Mobin-Dan/tool-hack.git")
 	os.system("cd tool-hack")
 	os.system("python2 tool.py")
