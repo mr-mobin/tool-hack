@@ -93,12 +93,12 @@ if x== 16:
 	os.system("cd TheFatRat")
 	os.system("chmod +x setup.sh && ./setup.sh")
 if x== 17:
-    os.system("pkg install wget")
-    os.system("wget https://raw.githubusercontent.com/gushmazuko/metasploit_in_termux/master/metasploit.sh")
-    os.system("chmod +x metasploit.sh")
-    os.system("./metasploit.sh")
+        os.system("pkg install wget")
+        os.system("wget https://raw.githubusercontent.com/gushmazuko/metasploit_in_termux/master/metasploit.sh")
+        os.system("chmod +x metasploit.sh")
+        os.system("./metasploit.sh")
 if  x== 0:
-    os.system("rm -rf tool-hack")
+        os.system("rm -rf tool-hack")
 	os.system("git clone https://github.com/Mobin-Dan/tool-hack.git")
 	os.system("cd tool-hack")
 	os.system("python2 tool.py")
