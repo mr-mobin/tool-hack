@@ -1,9 +1,15 @@
 import os
-print"`````````````"
-print "``coding`````"
-print "|by|        `"
-print "{MOBin.Dan} `"
-print"``````````````"
+print""\033[92m
+print"`````````````````````````````````````|"
+print"        c0ding                           |"
+print"                                               |"
+print"            by                               |"
+print"                     m0Bin-dan       |"
+print"                                               |"
+print"  ᵐʸ ᶜʰᵃⁿᵉˡˡ ⁱⁿ ʳᵘᵇⁱᵏᵃ                 |"
+print"       ﹕@ᵐʳ⁻ˢᵉʳᵛᵉʳ                   |"   
+print"-------------------------------------------|"
+print
 print'0:{update}'
 print'1:{fsociety}'
 print'2:{hammer}'
@@ -22,6 +28,7 @@ print'14:{insta tool[vIP]}'
 print'15:{ghost}{clinet hack}'
 print'16:{fatrat(root)}'
 print'17:{matasploit}'
+print'18:{hack Bluetooth}'
 x= input('enter your number:')
 
 if x== 1:
@@ -98,10 +105,12 @@ if x== 17:
         os.system("chmod +x metasploit.sh")
         os.system("./metasploit.sh")
 if  x== 0:
-        os.system("cd ..")
+     os.system("cd ..")
 	os.system("rm -rf tool-hack")
 	os.system("git clone https://github.com/Mobin-Dan/tool-hack.git")
 	os.system("cd tool-hack")
 	os.system("python2 tool.py")
-
-
+if x== 18:
+	os.system("git clone https://github.com/Bhai4You/Bulltools")
+	os.system("cd Bulltools")
+	os.system("bash Bulltools.sh")
