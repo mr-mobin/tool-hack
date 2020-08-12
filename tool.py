@@ -29,6 +29,7 @@ print'15:{ghost}{clinet hack}'
 print'16:{fatrat(root)}'
 print'17:{matasploit}'
 print'18:{hack Bluetooth}'
+print'19:{DOS}'
 x= input('enter your number:')
 
 if x== 1:
@@ -114,3 +115,7 @@ if x== 18:
 	os.system("git clone https://github.com/Bhai4You/Bulltools")
 	os.system("cd Bulltools")
 	os.system("bash Bulltools.sh")
+if x== 19:
+        os.system("git clone https://github.com/Mobin-Dan/Dos")
+	os.system("cd DoS")
+	os.system("python2 dos.py")
