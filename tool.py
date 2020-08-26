@@ -1,5 +1,5 @@
 import os
-print""\033[92m
+print"""\033[92m
 print"`````````````````````````````````````|"
 print"        c0ding                           |"
 print"                                               |"
@@ -9,7 +9,7 @@ print"                                               |"
 print"  ᵐʸ ᶜʰᵃⁿᵉˡˡ ⁱⁿ ʳᵘᵇⁱᵏᵃ                 |"
 print"       ﹕@ᵐʳ⁻ˢᵉʳᵛᵉʳ                   |"   
 print"-------------------------------------------|"
-print
+print"""
 print'0:{update}'
 print'1:{fsociety}'
 print'2:{hammer}'
